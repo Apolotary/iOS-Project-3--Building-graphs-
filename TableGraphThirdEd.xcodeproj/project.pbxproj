@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE341B6913D42139005DDC9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE341B6813D42139005DDC9D /* UIKit.framework */; };
+		CE341B6B13D42139005DDC9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE341B6A13D42139005DDC9D /* Foundation.framework */; };
+		CE341B6D13D42139005DDC9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE341B6C13D42139005DDC9D /* CoreGraphics.framework */; };
+		CE341B7313D4213A005DDC9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE341B7113D4213A005DDC9D /* InfoPlist.strings */; };
+		CE341B7613D4213A005DDC9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE341B7513D4213A005DDC9D /* main.m */; };
+		CE341B7913D4213A005DDC9D /* TableGraphThirdEdAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE341B7813D4213A005DDC9D /* TableGraphThirdEdAppDelegate.m */; };
+		CE341B7C13D4213A005DDC9D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE341B7A13D4213A005DDC9D /* MainWindow.xib */; };
+		CE341B8F13D4213A005DDC9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE341B6813D42139005DDC9D /* UIKit.framework */; };
+		CE341B9013D4213A005DDC9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE341B6A13D42139005DDC9D /* Foundation.framework */; };
+		CE341B9113D4213A005DDC9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE341B6C13D42139005DDC9D /* CoreGraphics.framework */; };
+		CE341B9913D4213A005DDC9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE341B9713D4213A005DDC9D /* InfoPlist.strings */; };
+		CE341B9C13D4213A005DDC9D /* TableGraphThirdEdTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CE341B9B13D4213A005DDC9D /* TableGraphThirdEdTests.h */; };
+		CE341B9E13D4213A005DDC9D /* TableGraphThirdEdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE341B9D13D4213A005DDC9D /* TableGraphThirdEdTests.m */; };
+		CE341BAA13D4230A005DDC9D /* GraphDataTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE341BA813D4230A005DDC9D /* GraphDataTableView.m */; };
+		CE341BAB13D4230A005DDC9D /* GraphDataTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE341BA913D4230A005DDC9D /* GraphDataTableView.xib */; };
+		CE341BB313D42861005DDC9D /* GraphViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE341BB213D42860005DDC9D /* GraphViewModel.m */; };
+		CE341BB613D42D46005DDC9D /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE341BB513D42D46005DDC9D /* GraphView.m */; };
+		CE341BE413D54430005DDC9D /* GraphView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE341BE313D54430005DDC9D /* GraphView.xib */; };
+		CE341C7F13D59CD5005DDC9D /* TextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE341C7D13D59CC5005DDC9D /* TextFieldView.m */; };
+		CE341C8013D59CD5005DDC9D /* TextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE341C7E13D59CC7005DDC9D /* TextFieldView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE341B9213D4213A005DDC9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE341B5B13D42139005DDC9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE341B6313D42139005DDC9D;
+			remoteInfo = TableGraphThirdEd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE341B6413D42139005DDC9D /* TableGraphThirdEd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableGraphThirdEd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE341B6813D42139005DDC9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE341B6A13D42139005DDC9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE341B6C13D42139005DDC9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE341B7013D4213A005DDC9D /* TableGraphThirdEd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableGraphThirdEd-Info.plist"; sourceTree = "<group>"; };
+		CE341B7213D4213A005DDC9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE341B7413D4213A005DDC9D /* TableGraphThirdEd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableGraphThirdEd-Prefix.pch"; sourceTree = "<group>"; };
+		CE341B7513D4213A005DDC9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE341B7713D4213A005DDC9D /* TableGraphThirdEdAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableGraphThirdEdAppDelegate.h; sourceTree = "<group>"; };
+		CE341B7813D4213A005DDC9D /* TableGraphThirdEdAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableGraphThirdEdAppDelegate.m; sourceTree = "<group>"; };
+		CE341B7B13D4213A005DDC9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CE341B8E13D4213A005DDC9D /* TableGraphThirdEdTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableGraphThirdEdTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE341B9613D4213A005DDC9D /* TableGraphThirdEdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableGraphThirdEdTests-Info.plist"; sourceTree = "<group>"; };
+		CE341B9813D4213A005DDC9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE341B9A13D4213A005DDC9D /* TableGraphThirdEdTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableGraphThirdEdTests-Prefix.pch"; sourceTree = "<group>"; };
+		CE341B9B13D4213A005DDC9D /* TableGraphThirdEdTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableGraphThirdEdTests.h; sourceTree = "<group>"; };
+		CE341B9D13D4213A005DDC9D /* TableGraphThirdEdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableGraphThirdEdTests.m; sourceTree = "<group>"; };
+		CE341BA713D4230A005DDC9D /* GraphDataTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphDataTableView.h; sourceTree = "<group>"; };
+		CE341BA813D4230A005DDC9D /* GraphDataTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphDataTableView.m; sourceTree = "<group>"; };
+		CE341BA913D4230A005DDC9D /* GraphDataTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraphDataTableView.xib; sourceTree = "<group>"; };
+		CE341BB113D42860005DDC9D /* GraphViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewModel.h; sourceTree = "<group>"; };
+		CE341BB213D42860005DDC9D /* GraphViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewModel.m; sourceTree = "<group>"; };
+		CE341BB413D42D45005DDC9D /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		CE341BB513D42D46005DDC9D /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		CE341BE313D54430005DDC9D /* GraphView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraphView.xib; sourceTree = "<group>"; };
+		CE341C7C13D59CC3005DDC9D /* TextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldView.h; sourceTree = "<group>"; };
+		CE341C7D13D59CC5005DDC9D /* TextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldView.m; sourceTree = "<group>"; };
+		CE341C7E13D59CC7005DDC9D /* TextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE341B6113D42139005DDC9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE341B6913D42139005DDC9D /* UIKit.framework in Frameworks */,
+				CE341B6B13D42139005DDC9D /* Foundation.framework in Frameworks */,
+				CE341B6D13D42139005DDC9D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE341B8A13D4213A005DDC9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE341B8F13D4213A005DDC9D /* UIKit.framework in Frameworks */,
+				CE341B9013D4213A005DDC9D /* Foundation.framework in Frameworks */,
+				CE341B9113D4213A005DDC9D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE341B5913D42139005DDC9D = {
+			isa = PBXGroup;
+			children = (
+				CE341B6E13D42139005DDC9D /* TableGraphThirdEd */,
+				CE341B9413D4213A005DDC9D /* TableGraphThirdEdTests */,
+				CE341B6713D42139005DDC9D /* Frameworks */,
+				CE341B6513D42139005DDC9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE341B6513D42139005DDC9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE341B6413D42139005DDC9D /* TableGraphThirdEd.app */,
+				CE341B8E13D4213A005DDC9D /* TableGraphThirdEdTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE341B6713D42139005DDC9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE341B6813D42139005DDC9D /* UIKit.framework */,
+				CE341B6A13D42139005DDC9D /* Foundation.framework */,
+				CE341B6C13D42139005DDC9D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE341B6E13D42139005DDC9D /* TableGraphThirdEd */ = {
+			isa = PBXGroup;
+			children = (
+				CE341BB113D42860005DDC9D /* GraphViewModel.h */,
+				CE341BB213D42860005DDC9D /* GraphViewModel.m */,
+				CE341B7713D4213A005DDC9D /* TableGraphThirdEdAppDelegate.h */,
+				CE341B7813D4213A005DDC9D /* TableGraphThirdEdAppDelegate.m */,
+				CE341B7A13D4213A005DDC9D /* MainWindow.xib */,
+				CE341BA713D4230A005DDC9D /* GraphDataTableView.h */,
+				CE341BA813D4230A005DDC9D /* GraphDataTableView.m */,
+				CE341BA913D4230A005DDC9D /* GraphDataTableView.xib */,
+				CE341BB413D42D45005DDC9D /* GraphView.h */,
+				CE341BB513D42D46005DDC9D /* GraphView.m */,
+				CE341BE313D54430005DDC9D /* GraphView.xib */,
+				CE341C7C13D59CC3005DDC9D /* TextFieldView.h */,
+				CE341C7D13D59CC5005DDC9D /* TextFieldView.m */,
+				CE341C7E13D59CC7005DDC9D /* TextFieldView.xib */,
+				CE341B6F13D4213A005DDC9D /* Supporting Files */,
+			);
+			path = TableGraphThirdEd;
+			sourceTree = "<group>";
+		};
+		CE341B6F13D4213A005DDC9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE341B7013D4213A005DDC9D /* TableGraphThirdEd-Info.plist */,
+				CE341B7113D4213A005DDC9D /* InfoPlist.strings */,
+				CE341B7413D4213A005DDC9D /* TableGraphThirdEd-Prefix.pch */,
+				CE341B7513D4213A005DDC9D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE341B9413D4213A005DDC9D /* TableGraphThirdEdTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE341B9B13D4213A005DDC9D /* TableGraphThirdEdTests.h */,
+				CE341B9D13D4213A005DDC9D /* TableGraphThirdEdTests.m */,
+				CE341B9513D4213A005DDC9D /* Supporting Files */,
+			);
+			path = TableGraphThirdEdTests;
+			sourceTree = "<group>";
+		};
+		CE341B9513D4213A005DDC9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE341B9613D4213A005DDC9D /* TableGraphThirdEdTests-Info.plist */,
+				CE341B9713D4213A005DDC9D /* InfoPlist.strings */,
+				CE341B9A13D4213A005DDC9D /* TableGraphThirdEdTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE341B6313D42139005DDC9D /* TableGraphThirdEd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE341BA113D4213A005DDC9D /* Build configuration list for PBXNativeTarget "TableGraphThirdEd" */;
+			buildPhases = (
+				CE341B6013D42139005DDC9D /* Sources */,
+				CE341B6113D42139005DDC9D /* Frameworks */,
+				CE341B6213D42139005DDC9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableGraphThirdEd;
+			productName = TableGraphThirdEd;
+			productReference = CE341B6413D42139005DDC9D /* TableGraphThirdEd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE341B8D13D4213A005DDC9D /* TableGraphThirdEdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE341BA413D4213A005DDC9D /* Build configuration list for PBXNativeTarget "TableGraphThirdEdTests" */;
+			buildPhases = (
+				CE341B8913D4213A005DDC9D /* Sources */,
+				CE341B8A13D4213A005DDC9D /* Frameworks */,
+				CE341B8B13D4213A005DDC9D /* Resources */,
+				CE341B8C13D4213A005DDC9D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE341B9313D4213A005DDC9D /* PBXTargetDependency */,
+			);
+			name = TableGraphThirdEdTests;
+			productName = TableGraphThirdEdTests;
+			productReference = CE341B8E13D4213A005DDC9D /* TableGraphThirdEdTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE341B5B13D42139005DDC9D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CE341B5E13D42139005DDC9D /* Build configuration list for PBXProject "TableGraphThirdEd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE341B5913D42139005DDC9D;
+			productRefGroup = CE341B6513D42139005DDC9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE341B6313D42139005DDC9D /* TableGraphThirdEd */,
+				CE341B8D13D4213A005DDC9D /* TableGraphThirdEdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE341B6213D42139005DDC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE341B7313D4213A005DDC9D /* InfoPlist.strings in Resources */,
+				CE341B7C13D4213A005DDC9D /* MainWindow.xib in Resources */,
+				CE341BAB13D4230A005DDC9D /* GraphDataTableView.xib in Resources */,
+				CE341BE413D54430005DDC9D /* GraphView.xib in Resources */,
+				CE341C8013D59CD5005DDC9D /* TextFieldView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE341B8B13D4213A005DDC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE341B9913D4213A005DDC9D /* InfoPlist.strings in Resources */,
+				CE341B9C13D4213A005DDC9D /* TableGraphThirdEdTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE341B8C13D4213A005DDC9D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE341B6013D42139005DDC9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE341B7613D4213A005DDC9D /* main.m in Sources */,
+				CE341B7913D4213A005DDC9D /* TableGraphThirdEdAppDelegate.m in Sources */,
+				CE341BAA13D4230A005DDC9D /* GraphDataTableView.m in Sources */,
+				CE341BB313D42861005DDC9D /* GraphViewModel.m in Sources */,
+				CE341BB613D42D46005DDC9D /* GraphView.m in Sources */,
+				CE341C7F13D59CD5005DDC9D /* TextFieldView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE341B8913D4213A005DDC9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE341B9E13D4213A005DDC9D /* TableGraphThirdEdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE341B9313D4213A005DDC9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE341B6313D42139005DDC9D /* TableGraphThirdEd */;
+			targetProxy = CE341B9213D4213A005DDC9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE341B7113D4213A005DDC9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE341B7213D4213A005DDC9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE341B7A13D4213A005DDC9D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE341B7B13D4213A005DDC9D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CE341B9713D4213A005DDC9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE341B9813D4213A005DDC9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE341B9F13D4213A005DDC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE341BA013D4213A005DDC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CE341BA213D4213A005DDC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableGraphThirdEd/TableGraphThirdEd-Prefix.pch";
+				INFOPLIST_FILE = "TableGraphThirdEd/TableGraphThirdEd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE341BA313D4213A005DDC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableGraphThirdEd/TableGraphThirdEd-Prefix.pch";
+				INFOPLIST_FILE = "TableGraphThirdEd/TableGraphThirdEd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE341BA513D4213A005DDC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableGraphThirdEd.app/TableGraphThirdEd";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableGraphThirdEdTests/TableGraphThirdEdTests-Prefix.pch";
+				INFOPLIST_FILE = "TableGraphThirdEdTests/TableGraphThirdEdTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CE341BA613D4213A005DDC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableGraphThirdEd.app/TableGraphThirdEd";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableGraphThirdEdTests/TableGraphThirdEdTests-Prefix.pch";
+				INFOPLIST_FILE = "TableGraphThirdEdTests/TableGraphThirdEdTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE341B5E13D42139005DDC9D /* Build configuration list for PBXProject "TableGraphThirdEd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE341B9F13D4213A005DDC9D /* Debug */,
+				CE341BA013D4213A005DDC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE341BA113D4213A005DDC9D /* Build configuration list for PBXNativeTarget "TableGraphThirdEd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE341BA213D4213A005DDC9D /* Debug */,
+				CE341BA313D4213A005DDC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE341BA413D4213A005DDC9D /* Build configuration list for PBXNativeTarget "TableGraphThirdEdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE341BA513D4213A005DDC9D /* Debug */,
+				CE341BA613D4213A005DDC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE341B5B13D42139005DDC9D /* Project object */;
+}
